@@ -4,12 +4,13 @@ python:
     - 2.7
 script:
     - cd python2
-    - python contemplate_koans.py about_asserts about_dictionaries # add further koans here separated by spaces
+    - python contemplate_koans.py about_asserts about_dictionaries about_lists about_none about_list_assignments about_strings
 notifications:
   email: false
 
+# add further koans here separated by spaces
 # Some other koans (see runner/sensei.py or "ls koans" to see the light):
 #
-# about_none about_lists about_list_assignments about_dictionaries 
-# about_strings about_tuples about_methods about_control_statements 
+#
+# about_tuples about_methods about_control_statements 
 # about_true_and_false about_sets ...
